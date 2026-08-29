@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0, i;
+
+printf("Enter n: ");
+scanf("%d", &n);
+if (n >= 0)
+{
+    for (i = 1; i <= n; i++) 
+    {
+     sum = sum + i;
+   }
+}
+else
+{
+    for (i = n; i <= 0; i++)
+    {
+    sum = sum + i;
+    }
+}
+printf("Sum = %d\n", sum);
+
+    return 0;
+}
